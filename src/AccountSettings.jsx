@@ -8,12 +8,12 @@ export function AccountSettings() {
     return (
         <div>
             <label className="font-bold text-3xl p-12" htmlFor="account settings">Account Settings</label>
-            <div className="grid w-full max-w-sm items-center gap-1.5 p-12">
-                <Label className="text-lg" htmlFor="email">Email</Label>
+            <div className="grid w-full max-w-lg items-center gap-1.5 p-12">
+                <Label className="text-md" htmlFor="email">Email</Label>
                 <Input disabled type="email" id="email" placeholder="example@email.here" />
             </div>
     
-            <div className="grid w-full max-w-sm items-center gap-1.5 p-12">
+            <div className="grid w-full max-w-md items-center gap-1.5 p-12">
                 <Label className="text-lg" htmlFor="password">Password</Label>
                 <div className="flex w-full max-w-sm items-center space-x-3">
                     <Input disabled type="password" placeholder="" />
